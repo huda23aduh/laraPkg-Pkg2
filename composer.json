@@ -1,0 +1,25 @@
+{
+    "name": "avanahuda/pkg2",
+    "description": "avana huda pkg 2",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Avanahuda\\Pkg2\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "huda",
+            "email": "huda23aduh@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Avanahuda\\Pkg2\\Pkg2ServiceProvider"
+            ]
+        }
+    },
+    "require": {}
+}
